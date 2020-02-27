@@ -6,8 +6,8 @@ I wrote a python script to help me play Wordscapes, the popular word puzzle mobi
 [wordscaper.py](wordscaper.py) is the primary script. 
 
 # Example Use
-⋅⋅* arg 1 - available characters  
-⋅⋅* arg 2 - max length of desired word  
+arg 1 - available characters  
+arg 2 - max length of desired word  
 Input
 ```
 python wordscaper.py saved 5

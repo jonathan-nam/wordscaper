@@ -8,14 +8,14 @@ if __name__ == "__main__":
 	
 	chars = sys.argv[1]
 	max_word_len = int(sys.argv[2])
-	
 	all_permutations = []
-	for i in range(MIN_WORD_LEN, max_word_len, 1):
+	possible_words = []
+	
+	for i in range(MIN_WORD_LEN, max_word_len+1):
 		all_permutations += [''.join(p) for p in permutations(chars, i)]
 	
-	possible_words = []
-	for x in f:
-		word = x.strip()
+	for line in f:
+		word = line.strip()
 		if word in all_permutations:
 			possible_words.append(word)
 			

@@ -45,4 +45,6 @@ save
 vade
 vase
 veda
+devas
+saved
 ```

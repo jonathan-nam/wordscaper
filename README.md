@@ -1,4 +1,4 @@
-# Wordscaper
+# Introduction
 I wrote a python script to help me play Wordscapes, the popular word puzzle mobile game for Android and iOS.
 
 # Files
@@ -6,6 +6,9 @@ I wrote a python script to help me play Wordscapes, the popular word puzzle mobi
 [wordscaper.py](wordscaper.py) is the primary script. 
 
 # Example Use
+wordscaper.py takes two arguments
+⋅⋅* arg 1 - available characters
+⋅⋅* arg 2 - max length of desired word
 Input
 ```
 python wordscaper.py saved 5
